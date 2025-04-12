@@ -1,0 +1,77 @@
+// src/CustomDatePicker.scss
+.datepicker-group {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  
+    label {
+      font-size: 1rem;
+      white-space: nowrap;
+    }
+  
+    .datepicker-wrapper {
+      position: relative;
+      width: 100%;
+  
+      .custom-datepicker {
+        padding-bottom: 8px;
+        border: 0.5px solid #3e4720;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        background-color: white;
+        font-size: 1rem;
+        color: black;
+        width: 100%;
+      }
+  
+      .calendar-icon {
+        position: absolute;
+        right: 0.5rem;
+        top: 50%;
+        transform: translateY(-50%);
+        color: #3e4720;
+        font-size: 1.2rem;
+        pointer-events: none;
+        cursor: pointer;
+      }
+    }
+  }
+  
+  // Styles pour le calendrier
+  .react-datepicker {
+    font-size: 0.9rem;
+  }
+  
+  .react-datepicker__header {
+    background-color: #a1a88c;
+    color: white;
+  }
+  
+  .react-datepicker__day--selected,
+  .react-datepicker__day--keyboard-selected {
+    background-color: #85a885;
+    color: white;
+  }
+  
+  // Fond blanc pour les menus déroulants de mois et années
+  .react-datepicker__month-select,
+  .react-datepicker__year-select {
+    background-color: white !important;
+    color: black;
+    border: 1px solid #3e4720;
+  }
+  
+  .react-datepicker__month-option,
+  .react-datepicker__year-option {
+    color: black;
+  
+    &:hover {
+      background-color: #f0f0f0;
+    }
+  }
+  
+  // Positionnement du popper
+  .custom-datepicker-popper {
+    z-index: 1000;
+  }
