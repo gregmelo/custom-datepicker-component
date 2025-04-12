@@ -7,7 +7,7 @@ A customizable React date picker component with a calendar icon, range restricti
 Install the package via npm:
 
 ```bash
-npm install @votre-nom/custom-datepicker-component
+npm install @gregmelo/custom-datepicker-component
 ```
 ## Dependencies
 
@@ -27,7 +27,7 @@ Import and use the CustomDatePicker component in your React application:
 
 ```bash
 import React, { useState } from 'react';
-import { CustomDatePicker } from '@votre-nom/custom-datepicker-component';
+import { CustomDatePicker } from '@gregmelo/custom-datepicker-component';
 
 const App = () => {
   const [date, setDate] = useState('');
