@@ -55,7 +55,7 @@ export default App;
 Prop	Type	Required	Default	Description
 id	string	Yes	-	The unique ID for the date picker input
 label	string	Yes	-	The label to display above the date picker
-value	string	No	''	The selected date value (ISO string, e.g., 'YYYY-MM-DD')
+value	string	''	The selected date value (ISO string, e.g., 'YYYY-MM-DD')
 onChange	function	Yes	-	Function to call when the date changes
 type	string	Yes	-	The type of date picker ('birth' or 'start')
 Type Values

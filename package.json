@@ -1,6 +1,6 @@
 {
   "name": "@gregmelo/custom-datepicker-component",
-  "version": "1.0.0",
+  "version": "1.0.8",
   "description": "A customizable React date picker component with calendar icon and range restrictions",
   "main": "dist/custom-datepicker.umd.js",
   "module": "dist/custom-datepicker.es.js",
@@ -9,20 +9,30 @@
     "build": "vite build",
     "prepublishOnly": "npm run build"
   },
-  "keywords": ["react", "datepicker", "component", "ui", "calendar"],
+  "keywords": [
+    "react",
+    "datepicker",
+    "component",
+    "ui",
+    "calendar"
+  ],
   "author": "Véricel Grégory",
   "license": "MIT",
   "peerDependencies": {
-    "react": "^17.0.0 || ^18.0.0",
-    "react-dom": "^17.0.0 || ^18.0.0"
+    "react": "^17.0.0 || ^18.0.0 || ^19.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0 || ^19.0.0"
   },
   "dependencies": {
-    "react-datepicker": "^4.0.0",
-    "react-icons": "^5.0.0"
+    "prop-types": "^15.8.1",
+    "react-datepicker": "^8.3.0",
+    "react-icons": "^5.0.0",
+    "sass-embedded": "^1.86.3"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.0.0",
-    "vite": "^5.0.0"
+    "sass": "^1.86.3",
+    "vite": "^5.0.0",
+    "vite-plugin-css-injected-by-js": "^3.5.2"
   },
   "repository": {
     "type": "git",

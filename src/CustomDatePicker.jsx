@@ -29,7 +29,7 @@ import { FaCalendarAlt } from 'react-icons/fa';
  * ```
  */
 
-const CustomeDatePicker = ({ id, label, value, onChange, type }) => {
+const CustomDatePicker = ({ id, label, value, onChange, type }) => {
   const today = new Date();
   const currentYear = today.getFullYear();
 
