@@ -1,6 +1,6 @@
 # @gregmelo/custom-datepicker-component
 
-A customizable React date picker component with a calendar icon, range restrictions, and dropdowns for month and year selection.
+A customizable React date picker component built on top of react-datepicker, featuring a calendar icon, date range restrictions, and dropdowns for month and year selection.
 
 ## Installation
 
